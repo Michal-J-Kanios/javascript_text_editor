@@ -3,7 +3,7 @@
 📜 Project inspired by Reza Mehdikhanlou's own text editor. Made for recreational and educational purposes.
 
 ## Overview
-![light mode screenshot](https://github.com/[michal-j-kanios]/[javascript_text_editor]/blob/[main]/ss1.png?raw=true)
+![light mode screenshot](https://github.com/michal-j-kanios/javascript_text_editor/blob/main/ss1.png?raw=true)
 
 ## Features:
 - Light & Dark mode
