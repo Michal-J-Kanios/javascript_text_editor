@@ -2,8 +2,8 @@
 ## Responsive, rich text editor - now featuring togglable light/dark mode.
 📜 Project inspired by Reza Mehdikhanlou's own text editor. Made for recreational and educational purposes.
 
-## Overview
-![light mode screenshot](https://github.com/michal-j-kanios/javascript_text_editor/blob/main/ss1.png?raw=true)
+## Preview
+![light mode screenshot](https://github.com/michal-j-kanios/javascript_text_editor/blob/main/ss1.png=500x500)
 
 ## Features:
 - Light & Dark mode
