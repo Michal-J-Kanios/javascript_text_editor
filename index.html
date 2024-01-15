@@ -13,16 +13,15 @@
 
     <div class="container">
         <div class="siteMode">
-            <h1>Online Text Editor</h1>
-            <hr>
-            <button id="dark" class="theme-button" onclick="dark();">
-                <i class="fa-solid fa-moon"></i>
-            </button>
-            <h1>/</h2>
-            <button id="light" class="theme-button" onclick="light();">
-                <i class="fa-solid fa-sun"></i>
-            </button>
+                <h1>Online Text Editor</h1>
+                <button id="dark" class="theme-button" onclick="dark();">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="light" class="theme-button" onclick="light();">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
         </div>
+        
 
 
         <div class="options">
@@ -54,14 +53,17 @@
             <button id="insertUnorderedList" class="option-button">
                 <i class="fa-solid fa-list-ul"></i>
             </button>
-            <button id="alignLeft" class="option-button align">
+            <button id="justifyLeft" class="option-button align">
                 <i class="fa-solid fa-align-left"></i>
             </button>
-            <button id="alignCenter" class="option-button align">
+            <button id="justifyCenter" class="option-button align">
                 <i class="fa-solid fa-align-center"></i>
             </button>
-            <button id="alignRight" class="option-button align">
+            <button id="justifyRight" class="option-button align">
                 <i class="fa-solid fa-align-right"></i>
+            </button>
+            <button id="justifyFull" class="option-button spacing">
+                <i class="fa-solid fa-align-justify"></i>
             </button>
             <button id="indent" class="option-button spacing">
                 <i class="fa-solid fa-indent"></i>
@@ -72,7 +74,7 @@
             <button id="createLink" class="adv-option-button">
                 <i class="fa-solid fa-link"></i>
             </button>
-            <button id="removeLink" class="adv-option-button">
+            <button id="unlink" class="option-button">
                 <i class="fa-solid fa-unlink"></i>
             </button>
 
@@ -88,13 +90,13 @@
             <select id="fontSize" class="adv-option-button"></select>
 
             <div class="input-wrapper">
-                <input type="color" id="foregroundColor" class="adv-option-button">
-                <label for="foregroundColor">Font Color</label>
+                <input type="color" id="foreColor" class="adv-option-button">
+                <label for="foreColor">Font Color</label>
             </div>
 
             <div class="input-wrapper">
-                <input type="color" id="backgroundColor" class="adv-option-button">
-                <label for="backgroundColor">Highlight Color</label>
+                <input type="color" id="backColor" class="adv-option-button">
+                <label for="backColor">Highlight Color</label>
             </div>
 
         </div>

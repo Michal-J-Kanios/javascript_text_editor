@@ -6,11 +6,12 @@
 }
 
 body {
-    background-color: #1a1b1f;
+    background-color: #e0e9ff;
 }
 
 .container {
     background-color: #fff;
+    color: #020929;
     width: 90vmin;
     padding: 50px 30px;
     position: absolute;
@@ -22,34 +23,44 @@ body {
 }
 
 .siteMode {
-    display: flex;
     position: relative;
     margin: 24px;
 }
 
 .siteMode h1 {
     font-family: 'Roboto', 'sans-serif';
+    float: left;
 }
 
 .theme-button {
     width: 36px;
     height: 36px;
     border-radius: 10px;
-    border: none;
-    clear: both;
-    background-color: #fff;
+    border: 1px solid;
     outline: none;
-    color: #020929;
     cursor: pointer;
     margin: 5px;
     font-size: 150%;
+    float: right;
 }
+
+#light {
+    color: #020929;
+    background-color: #fff;
+}
+
+#dark {
+    color: #fff;
+    background-color: #020929;
+}
+
 
 .options {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 15px;
+    clear: both;
 }
 
 button {
@@ -108,12 +119,12 @@ input[type="color"]::-moz-color-swatch{
     background-color: #e0e9ff;
 }
 
-.dark-mode {
-    background-color: #020929;
-    color: fff;
-  }
+#dark:hover{
+    background-color: rgb(220, 220, 220);
+    color: gray;
+}
 
-.light-mode {
-    background-color: #fff;
-    color: #020929;
+#light:hover{
+    background-color: rgb(220, 220, 220);
+    color: gray;
 }
